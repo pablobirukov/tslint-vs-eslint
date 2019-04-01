@@ -26,6 +26,16 @@
     tslint-config-prettier "^1.6.0"
     tslint-react "^3.2.0"
 
+"@typescript-eslint/eslint-plugin@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-1.5.0.tgz#85c509bcfc2eb35f37958fa677379c80b7a8f66f"
+  integrity sha512-TZ5HRDFz6CswqBUviPX8EfS+iOoGbclYroZKT3GWGYiGScX0qo6QjHc5uuM7JN920voP2zgCkHgF5SDEVlCtjQ==
+  dependencies:
+    "@typescript-eslint/parser" "1.5.0"
+    "@typescript-eslint/typescript-estree" "1.5.0"
+    requireindex "^1.2.0"
+    tsutils "^3.7.0"
+
 "@typescript-eslint/parser@1.5.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-1.5.0.tgz#a96114d195dff2a49534e4c4850fb676f905a072"
@@ -975,6 +985,11 @@ regexpp@^2.0.1:
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-2.0.1.tgz#8d19d31cf632482b589049f8281f93dbcba4d07f"
   integrity sha512-lv0M6+TkDVniA3aD1Eg0DVpfU/booSu7Eev3TDO/mZKHBfVjgCGTV4t4buppESEYDtkArYFOxTJWv6S5C+iaNw==
 
+requireindex@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
+  integrity sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
+
 resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
@@ -1215,6 +1230,13 @@ tsutils@^2.13.1, tsutils@^2.29.0:
   version "2.29.0"
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.29.0.tgz#32b488501467acbedd4b85498673a0812aca0b99"
   integrity sha512-g5JVHCIJwzfISaXpXE1qvNalca5Jwob6FjI4AoPlqMusJ6ftFE7IkkFoMhVLRgK+4Kx3gkzb8UZK5t5yTTvEmA==
+  dependencies:
+    tslib "^1.8.1"
+
+tsutils@^3.7.0:
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.9.1.tgz#2a40dc742943c71eca6d5c1994fcf999956be387"
+  integrity sha512-hrxVtLtPqQr//p8/msPT1X1UYXUjizqSit5d9AQ5k38TcV38NyecL5xODNxa73cLe/5sdiJ+w1FqzDhRBA/anA==
   dependencies:
     tslib "^1.8.1"
 

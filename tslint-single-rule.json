@@ -1,0 +1,7 @@
+{
+    "defaultSeverity": "error",
+    "rules": {
+        "semicolon": true
+    },
+    "rulesDirectory": []
+}

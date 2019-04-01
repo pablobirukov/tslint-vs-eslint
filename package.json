@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@chemzqm/tslint-config": "1.0.18",
+    "@typescript-eslint/eslint-plugin": "1.5.0",
     "@typescript-eslint/parser": "1.5.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "17.1.0",
@@ -8,5 +9,20 @@
     "eslint-plugin-import": "2.16.0",
     "tslint": "5.14.0",
     "typescript": "3.3.3"
+  },
+  "scripts": {
+    "postinstall": "git submodule init && git submodule update",
+
+    "tslint": "tslint 'coc.nvim/src/**/*.ts' -c tslint.json",
+    "eslint": "eslint 'coc.nvim/src/**/*.ts' -c eslint.json",
+
+    "tslint-with-project": "tslint 'coc.nvim/src/**/*.ts' -c tslint-with-project.json -p coc.nvim/tsconfig.json",
+    "eslint-with-project": "eslint 'coc.nvim/src/**/*.ts' -c eslint-with-project.json",
+
+    "tslint-single-rule": "tslint 'coc.nvim/src/**/*.ts' -c tslint-single-rule.json",
+    "eslint-single-rule": "eslint 'coc.nvim/src/**/*.ts' -c eslint-single-rule.json",
+
+    "tslint-single-rule-with-project": "tslint 'coc.nvim/src/**/*.ts' -c tslint-single-rule-with-project.json -p coc.nvim/tsconfig.json",
+    "eslint-single-rule-with-project": "eslint 'coc.nvim/src/**/*.ts' -c eslint-single-rule-with-project.json"
   }
 }

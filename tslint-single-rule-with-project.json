@@ -1,0 +1,7 @@
+{
+    "defaultSeverity": "error",
+    "rules": {
+        "no-unnecessary-type-assertion": true
+    },
+    "rulesDirectory": []
+}
